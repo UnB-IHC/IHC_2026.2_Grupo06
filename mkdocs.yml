@@ -1,41 +1,23 @@
-repo_url: https://github.com/vitorfleonardo/VerificAAA
-repo_name: VerificAAA
-
-site_url: https://github.com/vitorfleonardo/VerificAAA
-site_name: VerificAAA
-
-use_directory_urls: False
+site_name: IHC 2026.2 - Grupo 06 (BRB Mobilidade)
+site_description: Documentação do projeto de IHC focado no site BRB Mobilidade.
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
 
 nav:
-  - Início - VerificAAA: 'index.md'
-
-  - Desenvolvimento Web:
-    - Desenvolvimento: 'devWeb/non_text_content.md'
-
-  - Design:
-    - Design: 'design/design.md'
-  
-  - Geração de Conteúdo:
-    - Conteúdo: 'geracaoConteudo/conteudo.md'
-
-  - Gestão de Projetos:
-    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
-
-  - Ferramentas:
-    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
-
-theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
-
-markdown_extensions:
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: false
-      clickable_checkbox: true
-
-extra_css:
-  - stylesheets/extra.css
+  - Início: index.md
+  - O Site Avaliado: sobre_o_site/brb_mobilidade.md
+  - TG09 - Guia de Acessibilidade:
+      - Visão Geral: tg09_acessibilidade/introducao.md
+      - Diretrizes e Princípios WCAG: tg09_acessibilidade/principios_wcag.md
+      - Ferramentas e Testes: tg09_acessibilidade/ferramentas_testes.md
+      - Checklist NBR 17225: tg09_acessibilidade/checklist.md
+  - TG10 - Heurísticas de Usabilidade:
+      - Fundamentação (Nielsen e e-Gov): tg10_heuristicas/fundamentacao.md
+      - Planejamento e Escopo: tg10_heuristicas/planejamento_escopo.md
+      - Resultados e Tabelas: tg10_heuristicas/resultados_avaliadores.md
+  - Avaliações:
+      - Autoavaliação da Equipe: avaliacoes/avaliacao_equipe.md
+      - Avaliação com Usuário Externo: avaliacoes/teste_usuario_externo.md
