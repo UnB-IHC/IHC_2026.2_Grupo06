@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) [2024] [VerificAAA]
+Copyright (c) 2026 Grupo 06 - IHC 2026.2 (UnB)
 
 A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia
 deste software e dos arquivos de documentação associados (o "Software"), para lidar

@@ -1,6 +1,6 @@
 # IHC 2026.2 - Grupo 06 (BRB Mobilidade)
 
-Repositório da disciplina de **Interação Humano-Computador (IHC)** do curso de Engenharia de Software da Universidade de Brasília (UnB - Campus Gama).
+Repositório da disciplina de **Interação Humano-Computador (IHC)** do curso de Engenharia de Software da Universidade de Brasília (UnB), Faculdade do Gama (FGA).
 
 ---
 

@@ -2,6 +2,7 @@ site_name: IHC 2026.2 - Grupo 06 (BRB Mobilidade)
 site_description: Documentação do projeto de IHC focado no site BRB Mobilidade.
 theme:
   name: material
+  language: pt-BR
   palette:
     primary: indigo
     accent: blue
@@ -21,3 +22,10 @@ nav:
   - Avaliações:
       - Autoavaliação da Equipe: avaliacoes/avaliacao_equipe.md
       - Avaliação com Usuário Externo: avaliacoes/teste_usuario_externo.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
