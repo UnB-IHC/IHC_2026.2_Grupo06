@@ -1,44 +1,86 @@
-# Projeto de Interação Humano-Computador — Grupo 06
+![Capa do Projeto](imagens/capa.png)
 
-Bem-vindo à documentação oficial do **Grupo 06** para a disciplina de **Interação Humano-Computador (IHC)** do curso de Engenharia de Software da **Universidade de Brasília (UnB — FGA)**.
+# Projeto de Interação Humano-Computador
+
+Bem-vindo ao nossos pocket, esta página serve como ponto de partida e apresentação geral do portal. Aqui está reunida toda a estrutura e a prática de acessibilidade e usabilidade aprendidas na disciplina de Interação Humano-Computador.
 
 ---
 
-## 📌 Sobre o Projeto
+## 🚀 Sobre o Projeto
 
-Este projeto tem como foco a análise, avaliação e proposição de melhorias de usabilidade, acessibilidade e experiência do usuário (UX) na plataforma do **BRB Mobilidade Estudantil**, utilizada por estudantes do Distrito Federal para a solicitação e acompanhamento do Passe Livre Estudantil.
+O propósito central deste projeto é a construção de um guia de referência prático e fundamentado, desenhado para servir de instrumento metodológico na análise, avaliação e proposição de melhorias de acessibilidade, usabilidade e experiência do usuário (UX) em interfaces web. Embora o guia seja aplicado e validado neste momento na plataforma digital do BRB Mobilidade Estudantil (utilizada por estudantes do Distrito Federal para a gestão do Passe Livre Estudantil), a sua estrutura foi concebida com um escopo amplo e replicável, apta a ser utilizada na auditoria de qualquer sistema digital.
 
 ---
 
 ## 🗺️ Guia de Navegação
 
-Navegue pelas seções do projeto utilizando o menu lateral ou os links abaixo:
 
-* **[O Site Avaliado](sobre_o_site/brb_mobilidade.md):** Apresentação do portal BRB Mobilidade, público-alvo e principais fluxos operacionais.
-* **[TG09 — Guia de Acessibilidade](tg09_acessibilidade/introducao.md):** Consolidação dos princípios da WCAG 2.2, requisitos da NBR 17225:2025 e o checklist de avaliação de interfaces.
-* **[TG10 — Heurísticas de Usabilidade](tg10_heuristicas/fundamentacao.md):** Inspeção heurística baseada nas 10 diretrizes de Nielsen e nas heurísticas específicas para Governo Eletrônico (e-Gov).
-* **[Avaliações](avaliacoes/avaliacao_equipe.md):** Autoavaliação da equipe e resultados dos testes práticos conduzidos com usuário externo.
+<div class="grid cards" markdown>
+
+-   :material-wheelchair-accessibility:{ .lg .middle } __Guia de Acessibilidade__
+
+    ---
+
+    Consolidação dos princípios da **WCAG 2.2**, requisitos da NBR 17225:2025 e o checklist estruturado de avaliação.
+
+    [:octicons-arrow-right-24: Ver Documentação](tg09_acessibilidade/introducao/)
+
+-   :material-web:{ .lg .middle } __O Site Avaliado__
+
+    ---
+
+    Apresentação e contexto da plataforma do **BRB Mobilidade Estudantil**, destacando o escopo e funcionalidades do sistema analisado.
+
+    [:octicons-arrow-right-24: Ver Documentação](sobre_o_site/brb_mobilidade/)
+
+</div>
 
 ---
 
 ## 👥 Integrantes do Grupo 06
 
-| Matrícula | Nome Completo |
-| :--- | :--- |
-| 241025603 | Arthur Brayan Freire Araújo |
-| 261013753 | Danielly Reis Dos Santos |
-| 211062858 | Davi de Araujo Campelo |
-| 231037745 | Júlia Pêgo de Meneses |
-| 241012042 | Levi Evangelista Santos |
-| 241025701 | Marcely do Nascimento Silva |
-| 232023940 | Maria Eduarda Dos Santos Rosa |
-| 232030032 | Pedro Henrique Conceição De Souza |
+<div class="grid cards" markdown>
+
+-   ![Arthur](imagens/foto_arthur.jpg){ align=left width="100" }
+
+    **Arthur Brayan Freire Araújo**  
+    Matrícula: 241025603
+
+-   ![Danielly](imagens/foto_dani.jpg){ align=left width="100" }
+
+    **Danielly Reis Dos Santos**  
+    Matrícula: 261013753
+
+-   ![Davi](imagens/foto_davi.jpg){ align=left width="100" }
+
+    **Davi de Araujo Campelo**  
+    Matrícula: 211062858
+
+-   ![Júlia](imagens/foto_julia.jpg){ align=left width="100" }
+
+    **Júlia Pêgo de Meneses**  
+    Matrícula: 231037745
+
+-   ![Levi](imagens/foto_levi.jpg){ align=left width="100" }
+
+    **Levi Evangelista Santos**  
+    Matrícula: 241012042
+
+-   ![Marcely](imagens/foto_marcely.jpg){ align=left width="100" }
+
+    **Marcely do Nascimento Silva**  
+    Matrícula: 241025701
+
+-   ![Maria Eduarda](imagens/foto_rosa.jpg){ align=left width="100" }
+
+    **Maria Eduarda Dos Santos Rosa**  
+    Matrícula: 232023940
+
+-   ![Pedro](imagens/foto_pedro.jpg){ align=left width="100" }
+
+    **Pedro Henrique Conceição De Souza**  
+    Matrícula: 232030032
+
+</div>
 
 ---
-
-## 🏫 Informações Acadêmicas
-
-* **Disciplina:** Interação Humano-Computador (IHC)
-* **Docente:** Profª. Rejane Maria da Costa Figueiredo
-* **Semestre Letivo:** 2026.2
-* **Instituição:** Universidade de Brasília (UnB) — Faculdade do Gama (FGA)

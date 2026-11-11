@@ -1,31 +1,67 @@
-site_name: IHC 2026.2 - Grupo 06 (BRB Mobilidade)
-site_description: Documentação do projeto de IHC focado no site BRB Mobilidade.
+site_name: GUIA DE ACESSIBILIDADE 
+
 theme:
   name: material
   language: pt-BR
+  logo: imagens/acessibilidade_logo.png
+  favicon: imagens/acessibilidade_icon.png
   palette:
-    primary: indigo
-    accent: blue
+    - scheme: default
+      primary: blue
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Alterar para o modo escuro
+
+    - scheme: slate
+      primary: blue
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Alterar para modo claro
+  features:
+    - content.code.copy
+    - navigation.tabs
+    - toc.integrate
+    - navigation.top
+
+copyright: |
+  <strong>IHC 2026.2 | GRUPO 06</strong> — Universidade de Brasília (UnB/FGA) | Docente: Profª. Rejane Maria da Costa Figueiredo
+
 
 nav:
   - Início: index.md
-  - O Site Avaliado: sobre_o_site/brb_mobilidade.md
-  - TG09 - Guia de Acessibilidade:
-      - Visão Geral: tg09_acessibilidade/introducao.md
-      - Diretrizes e Princípios WCAG: tg09_acessibilidade/principios_wcag.md
-      - Ferramentas e Testes: tg09_acessibilidade/ferramentas_testes.md
-      - Checklist NBR 17225: tg09_acessibilidade/checklist.md
-  - TG10 - Heurísticas de Usabilidade:
-      - Fundamentação (Nielsen e e-Gov): tg10_heuristicas/fundamentacao.md
-      - Planejamento e Escopo: tg10_heuristicas/planejamento_escopo.md
-      - Resultados e Tabelas: tg10_heuristicas/resultados_avaliadores.md
-  - Avaliações:
-      - Autoavaliação da Equipe: avaliacoes/avaliacao_equipe.md
-      - Avaliação com Usuário Externo: avaliacoes/teste_usuario_externo.md
+  - Site avaliado:
+    - sobre_o_site/brb_mobilidade.md
+  - Perceptível:
+    - tg09_acessibilidade/perceptivel  
+  - Operável:
+    - tg09_acessibilidade/operavel
+  - Robusto:
+    - tg09_acessibilidade/robusto 
+  - Heurísticas:
+    - tg09_acessibilidade/heuristicas
+  - Ferramentas:
+    - tg09_acessibilidade/testes_ferramentas
 
 markdown_extensions:
   - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - md_in_html
   - attr_list
-  - tables
-  - toc:
-      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true

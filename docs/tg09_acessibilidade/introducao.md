@@ -1,43 +1,110 @@
-# TG09 — Guia de Acessibilidade: Introdução e fundamentos
+# Guia de Acessibilidade: Introdução e fundamentos
 
-## 1 Introdução
+# Introdução
 
-Este guia reúne, em um só documento, as principais orientações de acessibilidade digital e as transforma em critérios práticos para avaliar interfaces web.
+A acessibilidade digital é essencial para garantir que pessoas com diferentes capacidades possam utilizar sistemas e serviços digitais com autonomia. No Brasil, existem 18,6 milhões de pessoas com deficiência, segundo a PNAD Contínua (NASCIMENTO et al., 2023, p. 6). A ausência de recursos acessíveis pode impedir atividades cotidianas, como finalizar uma compra devido à falta de descrição de um botão. Além disso, a acessibilidade beneficia pessoas idosas e com baixo letramento digital (NASCIMENTO et al., 2023, p. 5).
 
-No Brasil, são 18,6 milhões de pessoas com deficiência, segundo a PNAD Contínua (NASCIMENTO et al., 2023, p. 6). Quando a interface não é acessível, essas pessoas perdem autonomia: um botão sem descrição, por exemplo, impede uma pessoa cega de finalizar uma compra (NASCIMENTO et al., 2023, p. 7). A acessibilidade também beneficia pessoas idosas e com baixo letramento digital (NASCIMENTO et al., 2023, p. 5).
+Nesse contexto, a acessibilidade também representa um direito garantido por lei. O artigo 63 da Lei Brasileira de Inclusão estabelece a obrigatoriedade de acessibilidade nos sítios da internet (NASCIMENTO et al., 2023, p. 7).
 
-Por isso, ela é também um direito. O artigo 63 da Lei Brasileira de Inclusão obriga a acessibilidade nos sítios da internet (NASCIMENTO et al., 2023, p. 7), e a NBR 17225:2025 define os requisitos técnicos de acessibilidade para conteúdo e aplicações web (ABNT, 2025).
+## Avaliação de usabilidade
 
-O guia está organizado em oito seções: a seção 2 apresenta os fundamentos; as seções 3 a 6 reúnem os critérios, agrupados pelos quatro princípios da WCAG ([Princípios WCAG](principios_wcag.md)); a seção 7 trata de testes e ferramentas ([Ferramentas e testes](ferramentas_testes.md)); e a seção 8 traz o [checklist](checklist.md), que serve para avaliar um site e indica, em cada item, a fonte e o nível de conformidade.
+A avaliação de usabilidade permite identificar dificuldades enfrentadas pelos usuários durante a interação com uma interface (UI), contribuindo para o desenvolvimento de sistemas mais intuitivos, eficientes e satisfatórios.
 
-Neste guia, "Guia UK" designa o *Guia de boas práticas para acessibilidade digital*, produzido pelo NIC.br e pelo Ceweb.br no Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital (2023).
+Entre os métodos utilizados, destaca-se a avaliação heurística, que permite identificar problemas de usabilidade por meio da inspeção de especialistas, utilizando princípios previamente estabelecidos.
 
-## 2 Fundamentos
+Embora os testes de usabilidade forneçam informações detalhadas sobre a experiência dos usuários, eles geralmente demandam mais tempo, equipe e recursos. Por isso, a avaliação heurística é uma alternativa ágil e de baixo custo para identificar problemas, inclusive nas etapas iniciais do desenvolvimento (MACIEL; MEDEIROS, 2026).
 
-A deficiência pode ser congênita, adquirida ou temporária, e cada grupo navega na web de um jeito (NASCIMENTO et al., 2023, p. 8). Pessoas com deficiência visual usam leitores e ampliadores de tela. Pessoas com deficiência física, que muitas vezes não conseguem usar o mouse, recorrem ao teclado, a *joysticks*, à voz ou ao movimento dos olhos. Pessoas surdas dependem de legendas e da interpretação em Libras, e pessoas neurodiversas se beneficiam de conteúdo objetivo e sem distrações (NASCIMENTO et al., 2023, p. 8-9).
+# Fundamentos da Acessibilidade Digital
 
-A NBR 17225 parte dessa lógica de desempenho funcional: atender a seus requisitos permite que "pessoas com limitações para enxergar, ouvir, falar, mover-se ou compreender" usem a web com segurança e autonomia (ABNT, 2025, p. 10), e seu escopo inclui necessidades situacionais, temporárias ou permanentes (ABNT, 2025, p. 1). O Guia lembra ainda que a acessibilidade "beneficia também pessoas idosas e de baixo letramento" (NASCIMENTO et al., 2023, p. 5). Por isso, avaliar uma interface exige pensar em perfis diversos de uso, e não em um único tipo de usuário.
+A acessibilidade digital considera que pessoas possuem diferentes capacidades e necessidades ao interagir com sistemas e conteúdos web. Por isso, uma interface deve permitir que usuários com diferentes tipos de deficiência, limitações temporárias ou necessidades situacionais consigam navegar e utilizar seus recursos com autonomia e segurança.
 
-### Acessibilidade como direito
+## Diversidade de usuários e necessidades de acesso
 
-A acessibilidade digital é um direito. O Guia lembra que a Declaração Universal dos Direitos Humanos (1948) e a Convenção sobre os Direitos das Pessoas com Deficiência (2006), sancionada no Brasil em 2009 com caráter de emenda constitucional, antecedem a Lei Brasileira de Inclusão (Lei 13.146/2015), cujo artigo 63 "obriga a acessibilidade nos sítios da Internet" (NASCIMENTO et al., 2023, p. 7). Essa obrigação alcança organizações com sede ou representação comercial no Brasil (NASCIMENTO et al., 2023, p. 53), o que inclui sites de governo e de empresas.
+As deficiências podem ser congênitas, adquiridas ou temporárias, influenciando a maneira como cada pessoa interage com a web (NASCIMENTO et al., 2023).
 
-No plano técnico, a NBR 17225:2025 afirma que "a conformidade com esta norma visa atender à legislação vigente" (ABNT, 2025, p. 1) e adota a WCAG 2.2 como base (ABNT, 2025, p. 1), a mesma referência que o Guia associa às boas práticas internacionais de acessibilidade citadas pela lei (NASCIMENTO et al., 2023, p. 12).
+| Perfil do usuário | Necessidades e recursos de acesso |
+|---|---|
+| Deficiência visual | Leitores de tela e ampliadores de tela. |
+| Deficiência física | Teclado, joysticks, comandos de voz e movimentos dos olhos. |
+| Deficiência auditiva | Legendas e interpretação em Libras. |
+| Pessoas neurodiversas | Conteúdo objetivo, organizado e com poucas distrações. |
 
-### Níveis de conformidade
+A acessibilidade também beneficia pessoas idosas e com baixo letramento digital. Dessa forma, a avaliação de interfaces deve considerar diferentes perfis de usuários, e não apenas um padrão único de interação.
 
-Para classificar o resultado da avaliação, este Guia adota três níveis próprios de conformidade, construídos a partir da NBR 17225, que divide suas diretrizes em requisitos e recomendações (ABNT, 2025, p. 9):
+A NBR 17225:2025 considera necessidades relacionadas a limitações para enxergar, ouvir, falar, mover-se ou compreender, incluindo condições permanentes, temporárias e situacionais.
 
-| Nível | O site... | Correspondência |
-| :---: | :--- | :--- |
-| **1** | atende apenas a parte dos requisitos obrigatórios, ou seja, ainda tem barreiras de acesso a corrigir. | Abaixo da conformidade regular. |
-| **2** | atende a todos os requisitos obrigatórios. | Conformidade regular da norma, alinhada ao nível AA da WCAG 2.2 (ABNT, 2025, p. 9). |
-| **3** | além dos obrigatórios, atende às recomendações e às boas práticas. | Aproxima-se da conformidade plena, que "abrange todos os requisitos e também as recomendações" (ABNT, 2025, p. 10). |
+## Legislação e normas de acessibilidade
 
-Entram no Nível 3 as boas práticas do Guia UK, pois a norma esclarece que atendê-la não dispensa outras práticas, como os princípios de usabilidade (ABNT, 2025, p. 9). Assim, cada avaliação termina com um único nível para o site, e as falhas dos requisitos obrigatórios são as primeiras a serem corrigidas.
+A acessibilidade digital é um direito fundamentado em documentos internacionais e na legislação brasileira, conforme:
+
+- **Declaração Universal dos Direitos Humanos (1948):** estabelece direitos fundamentais aplicáveis a todas as pessoas.
+- **Convenção sobre os Direitos das Pessoas com Deficiência (2006):** reconhece os direitos das pessoas com deficiência e foi incorporada ao ordenamento brasileiro em 2009, com status de emenda constitucional.
+- **Lei Brasileira de Inclusão (Lei nº 13.146/2015):** o artigo 63 determina a obrigatoriedade de acessibilidade nos sítios da internet, abrangendo organizações com sede ou representação comercial no Brasil.
+
+## Níveis de conformidade adotados no guia
+
+Para classificar os resultados das avaliações, o guia estabelece três níveis próprios de conformidade, baseados na distinção entre requisitos obrigatórios e recomendações da NBR 17225:2025.
+
+| Nível | Critério | Interpretação |
+|---|---|---|
+| **Nível 1** | Atende aos requisitos obrigatórios mínimos. | Ainda apresenta requisitos obrigatórios não atendidos e barreiras de acessibilidade a corrigir. |
+| **Nível 2** | Atende a todos os requisitos obrigatórios. | Representa a conformidade regular, alinhada ao nível AA da WCAG 2.2. |
+| **Nível 3** | Atende aos requisitos obrigatórios e às recomendações. | Aproxima-se da conformidade plena, incorporando boas práticas de acessibilidade e usabilidade. |
+
+### Priorização das correções
+
+Durante a avaliação, as falhas nos requisitos obrigatórios devem receber prioridade de correção. Após seu atendimento, recomenda-se avançar para as recomendações e boas práticas.
+
+O Nível 3 também considera boas práticas complementares, como as apresentadas no Guia de Acessibilidade do Reino Unido (UK), e princípios de usabilidade.
+
+**Importante:** os três níveis apresentados são uma classificação própria deste guia, construída com base na NBR 17225:2025. Não devem ser confundidos com os níveis oficiais de conformidade da WCAG (A, AA e AAA).
+
+---
+ 
+<div class="grid cards" markdown>
+
+-   :material-eye:{ .lg .middle } __Perceptível__
+
+    Avaliação da percepção das informações na interface, considerando cores, contraste, textos, imagens, recursos audiovisuais, responsividade e zoom.
+
+    [:octicons-arrow-right-24: Ver Documentação](perceptivel.md)
+
+-   :material-keyboard:{ .lg .middle } __Operável__
+
+    Avaliação da interação com a interface, considerando navegação por teclado, foco, links, botões, controles, animações, movimentos e limites de tempo.
+
+    [:octicons-arrow-right-24: Ver Documentação](operavel.md)
+
+-   :material-text-box-check:{ .lg .middle } __Compreensível__
+
+    Análise da clareza e previsibilidade da interface, considerando formulários, mensagens de erro, linguagem, conteúdo e orientações aos usuários.
+
+    [:octicons-arrow-right-24: Ver Documentação](compreensivel.md)
+
+-   :material-code-tags:{ .lg .middle } __Robusto__
+
+    Avaliação da estrutura técnica e semântica do código, considerando elementos HTML, WAI-ARIA, cabeçalhos, regiões, listas e tabelas.
+
+    [:octicons-arrow-right-24: Ver Documentação](robusto.md)
+
+-   :material-magnify:{ .lg .middle } __Heurísticas de Usabilidade__
+
+    Inspeção heurística baseada nas **10 heurísticas de Nielsen** e nas **15 heurísticas para Governo Eletrônico (e-Gov)**, com destaque para os critérios aplicáveis a serviços públicos digitais.
+
+    [:octicons-arrow-right-24: Ver Documentação](heuristicas.md)
+
+-   :material-test-tube:{ .lg .middle } __Testes e Ferramentas__
+
+    Métodos de avaliação de acessibilidade por meio de testes automáticos e manuais, utilizando ferramentas como **WAVE, Lighthouse e NVDA**.
+
+    [:octicons-arrow-right-24: Ver Documentação](testes_ferramentas.md)
+
+</div>
+
+---
 
 ## Referências
 
-ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR 17225: Acessibilidade em conteúdo e aplicações web: requisitos.** Rio de Janeiro: ABNT, 2025. Disponível em: <https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital>. Acesso em: 28 out. 2026.
+Consulte as fontes normativas, documentos legais e materiais utilizados nesta seção:
 
-NÚCLEO DE INFORMAÇÃO E COORDENAÇÃO DO PONTO BR (NIC.br); CENTRO DE ESTUDOS SOBRE TECNOLOGIAS WEB (Ceweb.br) (coord.). **Guia de boas práticas para acessibilidade digital:** Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital. São Paulo: NIC.br, 2023.
+[**Acesse as referências bibliográficas.**](referencias.md)
