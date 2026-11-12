@@ -51,6 +51,6 @@ Para facilitar a compreensão, podem ser utilizados glossários, listas de descr
 
 Essas alternativas tornam o conteúdo mais acessível a pessoas com diferentes níveis de habilidade de leitura e compreensão (W3C, 2023).
 
-## 5.3 Referências bibliográficas
+## Referências bibliográficas
 
-[Acesse as referências bibliográficas](referencias.md)
+Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md)

@@ -56,4 +56,4 @@ Sua aplicação é especialmente relevante para a avaliação do **BRB Mobilidad
 
 ## Referências bibliográficas
 
-[Acesse as referências bibliográficas](referencias.md)
+Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md)

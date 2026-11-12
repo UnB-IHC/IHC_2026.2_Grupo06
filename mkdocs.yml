@@ -3,8 +3,8 @@ site_name: GUIA DE ACESSIBILIDADE
 theme:
   name: material
   language: pt-BR
-  logo: imagens/acessibilidade_logo.png
-  favicon: imagens/acessibilidade_icon.png
+  logo: imagens/icon/acessibilidade_logo.png
+  favicon: imagens/icon/acessibilidade_icon.png
   palette:
     - scheme: default
       primary: blue
@@ -34,15 +34,15 @@ nav:
   - Site avaliado:
     - sobre_o_site/brb_mobilidade.md
   - Perceptível:
-    - tg09_acessibilidade/perceptivel  
+    - guia_acessibilidade/perceptivel  
   - Operável:
-    - tg09_acessibilidade/operavel
+    - guia_acessibilidade/operavel
   - Robusto:
-    - tg09_acessibilidade/robusto 
+    - guia_acessibilidade/robusto 
   - Heurísticas:
-    - tg09_acessibilidade/heuristicas
+    - guia_acessibilidade/heuristicas
   - Ferramentas:
-    - tg09_acessibilidade/testes_ferramentas
+    - guia_acessibilidade/testes_ferramentas
 
 markdown_extensions:
   - admonition

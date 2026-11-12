@@ -1,4 +1,4 @@
-![Capa do Projeto](imagens/capa.png)
+![Capa do Projeto](imagens/icon/capa.png)
 
 # Projeto de Interação Humano-Computador
 
@@ -23,7 +23,7 @@ O propósito central deste projeto é a construção de um guia de referência p
 
     Consolidação dos princípios da **WCAG 2.2**, requisitos da NBR 17225:2025 e o checklist estruturado de avaliação.
 
-    [:octicons-arrow-right-24: Ver Documentação](tg09_acessibilidade/introducao/)
+    [:octicons-arrow-right-24: Ver Documentação](guia_acessibilidade/introducao/)
 
 -   :material-web:{ .lg .middle } __O Site Avaliado__
 
@@ -41,42 +41,42 @@ O propósito central deste projeto é a construção de um guia de referência p
 
 <div class="grid cards" markdown>
 
--   ![Arthur](imagens/foto_arthur.jpg){ align=left width="100" }
+-   ![Arthur](imagens/integrantes/foto_arthur.jpg){ align=left width="100" }
 
     **Arthur Brayan Freire Araújo**  
     Matrícula: 241025603
 
--   ![Danielly](imagens/foto_dani.jpg){ align=left width="100" }
+-   ![Danielly](imagens/integrantes/foto_dani.jpg){ align=left width="100" }
 
     **Danielly Reis Dos Santos**  
     Matrícula: 261013753
 
--   ![Davi](imagens/foto_davi.jpg){ align=left width="100" }
+-   ![Davi](imagens/integrantes/foto_davi.jpg){ align=left width="100" }
 
     **Davi de Araujo Campelo**  
     Matrícula: 211062858
 
--   ![Júlia](imagens/foto_julia.jpg){ align=left width="100" }
+-   ![Júlia](imagens/integrantes/foto_julia.jpg){ align=left width="100" }
 
     **Júlia Pêgo de Meneses**  
     Matrícula: 231037745
 
--   ![Levi](imagens/foto_levi.jpg){ align=left width="100" }
+-   ![Levi](imagens/integrantes/foto_levi.jpg){ align=left width="100" }
 
     **Levi Evangelista Santos**  
     Matrícula: 241012042
 
--   ![Marcely](imagens/foto_marcely.jpg){ align=left width="100" }
+-   ![Marcely](imagens/integrantes/foto_marcely.jpg){ align=left width="100" }
 
     **Marcely do Nascimento Silva**  
     Matrícula: 241025701
 
--   ![Maria Eduarda](imagens/foto_rosa.jpg){ align=left width="100" }
+-   ![Maria Eduarda](imagens/integrantes/foto_rosa.jpg){ align=left width="100" }
 
     **Maria Eduarda Dos Santos Rosa**  
     Matrícula: 232023940
 
--   ![Pedro](imagens/foto_pedro.jpg){ align=left width="100" }
+-   ![Pedro](imagens/integrantes/foto_pedro.jpg){ align=left width="100" }
 
     **Pedro Henrique Conceição De Souza**  
     Matrícula: 232030032

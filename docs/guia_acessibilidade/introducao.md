@@ -99,12 +99,16 @@ O Nível 3 também considera boas práticas complementares, como as apresentadas
 
     [:octicons-arrow-right-24: Ver Documentação](testes_ferramentas.md)
 
+-   :material-clipboard-check-outline:{ .lg .middle } __Checklist__
+
+    Métodos de avaliação por meio do checklist, utilizando as normas da **WCAG, ABNT, Guia UK, Heuríscas**.
+
+    [:octicons-arrow-right-24: Ver Documentação](checklist.md)
+
 </div>
 
 ---
 
 ## Referências
 
-Consulte as fontes normativas, documentos legais e materiais utilizados nesta seção:
-
-[**Acesse as referências bibliográficas.**](referencias.md)
+Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [**Acesse as referências bibliográficas.**](referencias.md)

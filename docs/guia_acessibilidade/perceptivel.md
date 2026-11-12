@@ -1,16 +1,32 @@
 # Perceptível
 
-O princípio **Perceptível**, da WCAG, estabelece que informações e componentes da interface devem ser apresentados de maneira que possam ser identificados pelos usuários, independentemente de suas capacidades sensoriais.
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
 
-Para isso, devem ser considerados aspectos como contraste, legibilidade dos textos, descrição de imagens, alternativas para conteúdos multimídia e adaptação a diferentes telas. Essas práticas reduzem barreiras de acesso, especialmente para pessoas com deficiência visual ou auditiva e usuários com diferentes necessidades de leitura (W3C, 2023; NIC.br, 2023).
+O princípio **Perceptível**, da WCAG, estabelece que informações e componentes da interface devem ser apresentados de maneira que possam ser identificados pelos usuários, independentemente de suas capacidades sensoriais.
+Para isso, devem ser considerados aspectos como contraste, legibilidade dos textos, descrição de imagens, alternativas para conteúdos multimídia e adaptação a diferentes telas. Essas práticas reduzem barreiras de acesso, especialmente para pessoas com deficiência visual ou auditiva e usuários com diferentes necessidades de leitura (W3C, 2023; NIC.br, 2023). 
+
+</div>
+<div>
+  <img src="/guia_acessibilidade/../imagens/icon/perceptivel_icon.png" alt="icon perceptivel" width="150">
+</div>
+</div>
 
 ## Cores e contraste
+<div style="display: flex; align-items: center; gap: 10px;" markdown="1">
+<div style="flex: 1;" markdown="1">
 
 As cores devem ser utilizadas de forma que as informações permaneçam compreensíveis para diferentes usuários. **A cor não deve ser o único recurso utilizado para transmitir informações**, indicar erros, alertas ou identificar ações.
 
 **Exemplo:** um formulário não deve indicar um campo inválido apenas por meio de uma borda vermelha. Deve apresentar também uma mensagem explicativa ou outro indicador.
 
-### Requisitos de contraste
+</div>
+<div>
+  <img src="/guia_acessibilidade/../imagens/icon/rgb.png" alt="icon rgb" width="150">
+</div>
+</div>
+
+### ☀️Requisitos de contraste
 
 A NBR 17225:2025 estabelece os seguintes valores mínimos de contraste:
 
@@ -32,6 +48,10 @@ Os textos devem apresentar características que facilitem a leitura e a compreen
 - **Alinhamento:** priorizar o alinhamento à esquerda em textos corridos.
 - **Largura:** evitar linhas excessivamente compridas e blocos de texto muito extensos.
 - **Redimensionamento:** permitir o aumento do texto sem perda de conteúdo ou funcionalidades.
+<div style="display: flex; justify-content: center; gap: 50px; margin-top: 20px;">
+  <img src="/guia_acessibilidade/../imagens/icon/fonte-do-texto.png" alt="ícone 1" width="120">
+  <img src="/guia_acessibilidade/../imagens/icon/a-medida.png" alt="ícone 2" width="120">
+</div>
 
 ### Requisitos da NBR 17225:2025
 
@@ -47,14 +67,23 @@ As descrições devem ser objetivas, contextualizadas e evitar informações des
 
 ### Tipos de imagens e tratamento
 
+<div style="display: flex; align-items: center; gap: 32px;" markdown="1">
+<div markdown="1">
+
 | Tipo de imagem | Tratamento de acessibilidade |
-|---|---|
+| :--- | :--- |
 | Informativa | Descrever o conteúdo transmitido pela imagem. |
 | Funcional | Informar a finalidade da ação, como em um botão. |
 | Decorativa | Permitir que seja ignorada pelas tecnologias assistivas. |
 | Complexa | Oferecer descrição detalhada das informações apresentadas. |
 | Imagem de texto | Disponibilizar alternativa textual equivalente. |
 | Mapa de imagem | Descrever as áreas interativas e suas respectivas funções. |
+
+</div>
+<div>
+  <img src="/guia_acessibilidade/../imagens/icon/texto.png" alt="ícone de texto" width="200">
+</div>
+</div>
 
 A seção 5.2 da NBR 17225:2025 apresenta os critérios para diferentes tipos de imagens. Gráficos e diagramas complexos podem exigir uma descrição complementar mais detalhada, além do texto alternativo (ABNT, 2025; W3C, 2023).
 
@@ -68,8 +97,13 @@ Conteúdos multimídia devem oferecer alternativas que permitam o acesso às inf
 - **Transcrições:** disponibilizam em texto o conteúdo de materiais exclusivamente em áudio.
 - **Audiodescrição:** apresenta informações visuais relevantes, como ações, expressões e mudanças de cena que não são transmitidas pelo áudio original.
 - **Libras:** a janela de interpretação permite que pessoas surdas tenham acesso ao conteúdo por meio da Língua Brasileira de Sinais.
+<div style="display: flex; justify-content: center; gap: 50px; margin-top: 20px;">
+  <img src="/guia_acessibilidade/../imagens/icon/setas.png" alt="ícone 1" width="120">
+  <img src="/guia_acessibilidade/../imagens/icon/legenda_icon.png" alt="ícone 2" width="120">
+  <img src="/guia_acessibilidade/../imagens/icon/audio.png" alt="ícone 2" width="120">
+</div>
 
-### Classificação na NBR 17225:2025
+### **Classificação na NBR 17225:2025**
 
 A seção 5.14 aborda critérios relacionados a legendas, transcrições e audiodescrição.
 
@@ -79,10 +113,16 @@ A seção 5.14 aborda critérios relacionados a legendas, transcrições e audio
 A escolha dos recursos deve considerar o tipo de conteúdo e os critérios de acessibilidade aplicáveis (ABNT, 2025; W3C, 2023).
 
 ## Design responsivo e zoom
-
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
 Uma interface acessível deve adaptar seu conteúdo a diferentes tamanhos de tela e permitir que os usuários ampliem as informações sem perder funcionalidades ou conteúdo.
 
 Textos, imagens, menus e botões devem permanecer disponíveis e utilizáveis em celulares, tablets e computadores.
+</div>
+<div>
+  <img src="/guia_acessibilidade/../imagens/icon/mais-zoom.png" alt="ícone zoom" width="120">
+</div>
+</div>
 
 ### Critérios importantes
 
