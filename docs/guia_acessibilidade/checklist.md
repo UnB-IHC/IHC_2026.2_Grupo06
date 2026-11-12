@@ -2,8 +2,6 @@
 
 Use este checklist para avaliar um site. Em cada item, marque **S** (sim), **N** (não) ou **NA** (não se aplica). A classificação indica o nível de conformidade (veja os [níveis](introducao.md#niveis-de-conformidade)): **Nível 2** = requisito; **Nível 3** = recomendação ou boa prática.
 
-Aqui tens a tabela completa unificada com todos os itens extraídos das tuas imagens, pronta para ser copiada e colada diretamente no teu ficheiro Markdown do MkDocs:
-
 | TÓPICO | ITEM | CLASSIFICAÇÃO | REFERÊNCIAS | SIM (S) | NÃO (N) | NÃO APLICA (NA) |
 | :--- | :--- | :--- | :--- | :---: | :---: | :---: |
 | **CORES E CONTRASTES** | As informações não dependem exclusivamente de cores para serem compreendidas. | Nível 2 (Requisito) | NBR 17225 (5.11);<br>WCAG 2.2 | | | |
