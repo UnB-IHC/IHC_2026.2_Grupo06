@@ -191,4 +191,4 @@ Por isso, os sistemas devem oferecer mecanismos de controle do tempo, evitando q
 
 ## Referências
 
-Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [referências bibliográficas](referencias.md).
+Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md).

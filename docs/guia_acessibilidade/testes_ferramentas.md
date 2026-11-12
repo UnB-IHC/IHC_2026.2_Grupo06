@@ -36,4 +36,4 @@ O WAVE é especialmente útil para uma primeira análise visual da interface. O 
 
 ## Referências bibliográficas
 
-Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md)
+Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md).

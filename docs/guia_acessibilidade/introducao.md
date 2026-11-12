@@ -111,4 +111,4 @@ O Nível 3 também considera boas práticas complementares, como as apresentadas
 
 ## Referências
 
-Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [**Acesse as referências bibliográficas.**](referencias.md)
+Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md).

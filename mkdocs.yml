@@ -34,15 +34,15 @@ nav:
   - Site avaliado:
     - sobre_o_site/brb_mobilidade.md
   - Perceptível:
-    - guia_acessibilidade/perceptivel  
+    - guia_acessibilidade/perceptivel.md  
   - Operável:
-    - guia_acessibilidade/operavel
+    - guia_acessibilidade/operavel.md
   - Robusto:
-    - guia_acessibilidade/robusto 
+    - guia_acessibilidade/robusto.md
   - Heurísticas:
-    - guia_acessibilidade/heuristicas
+    - guia_acessibilidade/heuristicas.md
   - Ferramentas:
-    - guia_acessibilidade/testes_ferramentas
+    - guia_acessibilidade/testes_ferramentas.md
 
 markdown_extensions:
   - admonition

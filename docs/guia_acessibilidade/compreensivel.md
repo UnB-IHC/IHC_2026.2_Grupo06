@@ -53,4 +53,4 @@ Essas alternativas tornam o conteúdo mais acessível a pessoas com diferentes n
 
 ## Referências bibliográficas
 
-Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md)
+Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md).

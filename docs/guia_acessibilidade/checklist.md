@@ -45,4 +45,4 @@ Use este checklist para avaliar um site. Em cada item, marque **S** (sim), **N**
 | **EFICIÊNCIA, FLEXIBILIDADE E AJUDA** | A interface oferece eficiência de uso, fluxos ágeis e recursos completos de ajuda e suporte. | Nível 3 (Recomendação) | HN7, HN10, HGE02, HGE03 | |  | |
 
 ## Referências
-Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md)
+Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md).
