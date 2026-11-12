@@ -1,4 +1,4 @@
-![Logo do BRB Mobilidade](../imagens/BRB_Logo.png){align=left width="100"}
+![Logo do BRB Mobilidade](../imagens/icon/BRB_Logo.png){align=left width="100"}
 
 # Site avaliado
 
