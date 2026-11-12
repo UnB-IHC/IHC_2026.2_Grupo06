@@ -8,7 +8,7 @@ Repositório da disciplina de **Interação Humano-Computador (IHC)** do curso d
 Este projeto tem como objetivo realizar a análise de usabilidade, acessibilidade e experiência do usuário (UX) do site **BRB Mobilidade Estudantil**, aplicando diretrizes da WCAG 2.2, normas da NBR 17225:2025 e as Heurísticas de Nielsen e Governo Eletrônico.
 
 🌐 **Acesse nossa documentação completa via GitHub Pages:**  
-[Link para o site do MkDocs do Grupo 06](https://unb-ihc.github.io/IHC_2026.2_Grupo06/)
+[Link para o site do MkDocs do Grupo 06](https://ihc-2026-2-grupo06.onrender.com)
 
 ---
 
