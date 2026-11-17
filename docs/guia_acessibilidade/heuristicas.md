@@ -28,11 +28,11 @@ As dez heurísticas são:
 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; gap: 48px; margin: 50px 0;">
-  <img src="/guia_acessibilidade/../imagens/icon/real-estate.png" alt="Barra de pesquisa" width="150">
-  <img src="/guia_acessibilidade/../imagens/icon/liberdade.png" alt="Navegador da web" width="150">
-  <img src="/guia_acessibilidade/../imagens/icon/padrao-de-bloqueio.png" alt="Navegador da web" width="150">
-  <img src="/guia_acessibilidade/../imagens/icon/produtividade.png" alt="Navegador da web" width="150">
-  <img src="/guia_acessibilidade/../imagens/icon/ajuda.png" alt="Navegador da web" width="150">
+  <img src="/guia_acessibilidade/../imagens/icon/real-estate.png" alt="Barra de pesquisa" width="110">
+  <img src="/guia_acessibilidade/../imagens/icon/liberdade.png" alt="Navegador da web" width="110">
+  <img src="/guia_acessibilidade/../imagens/icon/padrao-de-bloqueio.png" alt="Navegador da web" width="110">
+  <img src="/guia_acessibilidade/../imagens/icon/produtividade.png" alt="Navegador da web" width="110">
+  <img src="/guia_acessibilidade/../imagens/icon/ajuda.png" alt="Navegador da web" width="110">
 </div>
 </div>
 
