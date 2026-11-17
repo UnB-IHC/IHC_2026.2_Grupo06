@@ -106,7 +106,7 @@ O Nível 3 também considera boas práticas complementares, como as apresentadas
     [:octicons-arrow-right-24: Ver Documentação](checklist.md)
 
 
-    -   :material-account-group:{ .lg .middle } __Personas__
+-   :material-account-group:{ .lg .middle } __Personas__
 
     Apresentação dos perfis de usuários considerados na avaliação, incluindo suas características, necessidades, objetivos e dificuldades de acessibilidade.
 

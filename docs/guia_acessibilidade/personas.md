@@ -1,20 +1,30 @@
 # Personas
 
-## 1. Conceito
-
 No ciclo de design centrado no usuário, a construção de personas é uma etapa fundamental para transformar os dados coletados durante pesquisas com usuários em perfis representativos.
 
 Personas são personagens fictícios criados para representar usuários típicos de determinado produto ou serviço. Elas possuem nome, imagem, história, valores e expectativas, permitindo que a equipe compreenda melhor o público-alvo e tome decisões fundamentadas nas necessidades reais dos usuários.
 
-## 2. Fundamentação
+## Fundamentação
+
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
 
 A construção de personas deve ser baseada em dados reais coletados durante pesquisas com usuários, evitando decisões fundamentadas apenas em suposições da equipe.
 
 Uma persona não representa simplesmente um usuário médio ou uma estatística, mas um perfil concreto que ajuda os desenvolvedores a desenvolver empatia e manter o foco nas necessidades humanas durante o projeto.
 
-## 3. Elementos de uma Persona
+</div>
+<div>
+  <img src="/guia_acessibilidade/../imagens/icon/colaborar.png" alt="Barra de pesquisa" width="150">
+</div>
+</div>
+
+## Elementos de uma Persona
 
 Cada persona deve apresentar os seguintes elementos:
+
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
 
 - **Nome fictício:** identificação da persona.
 - **Imagem representativa:** imagem que represente o perfil do usuário.
@@ -25,7 +35,16 @@ Cada persona deve apresentar os seguintes elementos:
 - **Objetivos:** tarefas que deseja realizar e resultados que espera alcançar.
 - **Motivações pessoais:** necessidades e interesses que influenciam suas ações.
 
-## 4. Importância das Personas
+</div>
+<div>
+  <img src="/guia_acessibilidade/../imagens/icon/comprador.png" alt="Barra de pesquisa" width="150">
+</div>
+</div>
+
+## Importância das Personas
+
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
 
 A utilização de personas contribui para:
 
@@ -35,6 +54,12 @@ A utilização de personas contribui para:
 - **Criação de cenários de uso:** auxilia na elaboração de situações que representam a interação dos usuários com o sistema.
 - **Avaliações:** serve como referência para avaliações de usabilidade e comunicabilidade.
 
-## 5. Referência
+</div>
+<div>
+  <img src="/guia_acessibilidade/../imagens/icon/motivacao.png" alt="Barra de pesquisa" width="150">
+</div>
+</div>
 
-BARBOSA et al. (2021). Literatura de Interação Humano-Computador (IHC), capítulos 3 e 8.
+## Referência
+
+Para consultar as normas, diretrizes e materiais utilizados neste princípio, acesse a página de [Acesse as referências bibliográficas](referencias.md).
