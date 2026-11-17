@@ -18,4 +18,4 @@ O grupo avaliou as seguintes funcionalidades:
 
 ## 🧷Como o site foi avaliado? 
 
-- **[TG09 — Guia de Acessibilidade](../guia_acessibilidade/introducao.md):** critérios da WCAG 2.2, da NBR 17225:2025, heuristicas e guia UK, com um checklist de avaliação. A inspeção por quatro avaliadores com as heurísticas de Nielsen e de governo eletrônico. Os resultados estão em [Resultados e tabelas](../sobre_o_site/resultados_checklist.md).
+- **[Guia de Acessibilidade](../guia_acessibilidade/introducao.md):** critérios da WCAG 2.2, da NBR 17225:2025, heuristicas e guia UK, com um checklist de avaliação. A inspeção por quatro avaliadores com as heurísticas de Nielsen e de governo eletrônico. Os resultados estão em [Resultados e tabelas](../sobre_o_site/resultados_checklist.md).

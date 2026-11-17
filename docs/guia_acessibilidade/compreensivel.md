@@ -6,11 +6,21 @@ As aplicações devem buscar, no mínimo, os níveis A e AA das WCAG, consideran
 
 ## Formulários e mensagens de erro
 
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
+
 A navegação deve apresentar comportamentos previsíveis, evitando mudanças inesperadas de contexto, como a abertura automática de novas janelas ou abas. Quando essas mudanças forem necessárias, devem ser previamente informadas ou ocorrer a partir de uma ação do usuário, conforme os critérios 3.2.1 e 3.2.2, ambos de nível A.
 
 Além disso, mecanismos de ajuda devem permanecer em posições consistentes entre as páginas (critério 3.2.6). Os mecanismos de navegação repetidos devem manter a mesma ordem relativa (critério 3.2.3, nível AA), e componentes com a mesma funcionalidade devem apresentar identificações consistentes (critério 3.2.4, nível AA) (W3C, 2023).
 
 Durante o preenchimento de formulários, devem ser fornecidos rótulos e instruções claras. Quando ocorrerem erros, eles precisam ser identificados e descritos em texto, com sugestões de correção sempre que possível.
+
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 16px; margin: 20px 0;">
+<img src="/guia_acessibilidade/../imagens/icon/depoimento.png" alt="Barra de pesquisa" width="120">
+<img src="/guia_acessibilidade/../imagens/icon/erro.png" alt="Barra de pesquisa" width="120">
+</div>
+</div>
 
 | **Critério WCAG** | **Orientação** | **Nível** |
 |---|---|---|
@@ -30,13 +40,31 @@ A ABNT NBR 17225:2025 também estabelece orientações para mensagens de erro e 
 | 5.9.11 | Permitir reverter, verificar ou confirmar informações. | Recomendação |
 | 5.9.12 | Permitir reverter, verificar ou confirmar informações em formulários críticos. | Requisito |
 
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
+
 Recomenda-se utilizar elementos HTML semânticos adequados, manter os formulários objetivos e apresentar mensagens de erro visíveis e próximas aos campos correspondentes. Essas práticas facilitam a identificação dos problemas e a correção das informações (NASCIMENTO et al., 2023, p. 30-31; ABNT, 2025, p. 23-24).
 
+</div>
+<div>
+<img src="/guia_acessibilidade/../imagens/icon/codificacao.png" alt="Barra de pesquisa" width="120">
+</div>
+</div>
+
 ## Linguagem e conteúdo
+
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
 
 O idioma principal da página deve ser identificado programaticamente, por meio do atributo `lang` no HTML ou da informação correspondente no cabeçalho HTTP. Essa identificação permite que tecnologias assistivas interpretem corretamente o conteúdo (critério 3.1.1, nível A).
 
 Quando houver mudanças de idioma em trechos específicos, elas também devem ser identificadas programaticamente (critério 3.1.2, nível AA). Essas orientações são contempladas pelos requisitos 5.13.2 e 5.13.3 da ABNT NBR 17225:2025 (W3C, 2023; ABNT, 2025, p. 30).
+
+</div>
+<div>
+<img src="/guia_acessibilidade/../imagens/icon/tradutor-online.png" alt="Barra de pesquisa" width="150">
+</div>
+</div>
 
 Outros critérios relacionados à compreensão da linguagem são:
 
@@ -47,9 +75,18 @@ Outros critérios relacionados à compreensão da linguagem são:
 | 3.1.5 | Disponibilizar recursos complementares para textos que exigem habilidades de leitura superiores ao nível do ensino médio inferior. | AAA |
 | 3.1.6 | Fornecer recursos para identificar a pronúncia correta de palavras ambíguas. | AAA |
 
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
+
 Para facilitar a compreensão, podem ser utilizados glossários, listas de descrição, explicações no próprio texto e links para definições. Em conteúdos mais complexos, também podem ser oferecidos resumos, ilustrações, imagens, símbolos, versões em áudio ou em língua de sinais.
 
 Essas alternativas tornam o conteúdo mais acessível a pessoas com diferentes níveis de habilidade de leitura e compreensão (W3C, 2023).
+
+</div>
+<div>
+<img src="/guia_acessibilidade/../imagens/icon/compreensao.png" alt="Barra de pesquisa" width="150">
+</div>
+</div>
 
 ## Referências bibliográficas
 

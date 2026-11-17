@@ -1,6 +1,6 @@
-## Referências e diretrizes utilizadas
+## Diretrizes utilizadas
 
-Para construir os critérios de avaliação, foram utilizados diferentes padrões, normas e modelos de referência:
+Para construir os critérios de avaliação, foram utilizados diferentes padrões, normas e modelos:
 
 - **WCAG (Web Content Accessibility Guidelines):** diretrizes internacionais de acessibilidade para conteúdo web, organizadas em quatro princípios: perceptível, operável, compreensível e robusto.
 - **ABNT NBR 17225:2025:** norma brasileira que estabelece requisitos técnicos de acessibilidade para conteúdos e aplicações web.

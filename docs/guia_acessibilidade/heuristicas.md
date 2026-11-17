@@ -1,5 +1,7 @@
 # Heurísticas
 
+Nesta seção, reunimos as principais diretrizes para avaliar e melhorar a experiência digital no setor público. Combinamos as clássicas 10 Heurísticas de Nielsen com critérios específicos voltados para o Governo Eletrônico (e-Gov), garantindo que os serviços públicos digitais sejam acessíveis, transparentes, intuitivos e eficientes para todos os cidadãos.
+
 ## Heurísticas de Nielsen
 
 As heurísticas de Nielsen são princípios gerais de usabilidade utilizados para identificar problemas em interfaces e avaliar a qualidade da interação entre o usuário e o sistema. Elas auxiliam avaliações heurísticas, nas quais os avaliadores analisam a interface e registram problemas encontrados, considerando sua experiência e os princípios estabelecidos.
@@ -7,6 +9,9 @@ As heurísticas de Nielsen são princípios gerais de usabilidade utilizados par
 As dez heurísticas são:
 
 ### As dez heurísticas
+
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
 
 | **Heurística** | **Descrição** |
 |---|---|
@@ -20,6 +25,16 @@ As dez heurísticas são:
 | **8. Estética e design minimalista** | A interface deve apresentar apenas informações relevantes para a tarefa, evitando elementos desnecessários e sobrecarga visual. |
 | **9. Recuperação diante de erros** | As mensagens de erro devem utilizar linguagem simples, identificar o problema e orientar o usuário sobre como corrigi-lo. |
 | **10. Ajuda e documentação** | O sistema deve oferecer suporte acessível e instruções claras, preferencialmente integradas ao fluxo de utilização. Uma interface intuitiva reduz a necessidade de consultar documentação. |
+
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 48px; margin: 50px 0;">
+  <img src="/guia_acessibilidade/../imagens/icon/real-estate.png" alt="Barra de pesquisa" width="150">
+  <img src="/guia_acessibilidade/../imagens/icon/liberdade.png" alt="Navegador da web" width="150">
+  <img src="/guia_acessibilidade/../imagens/icon/padrao-de-bloqueio.png" alt="Navegador da web" width="150">
+  <img src="/guia_acessibilidade/../imagens/icon/produtividade.png" alt="Navegador da web" width="150">
+  <img src="/guia_acessibilidade/../imagens/icon/ajuda.png" alt="Navegador da web" width="150">
+</div>
+</div>
 
 Essas heurísticas podem ser aplicadas a diferentes tipos de sistemas e ajudam a identificar problemas relacionados à navegação, compreensão, eficiência e prevenção de erros (LUCAS CAMARA, 2024).
 
@@ -37,9 +52,9 @@ As heurísticas foram organizadas em três categorias:
 2. **Serviços;**
 3. **Visibilidade, Flexibilidade e Navegação.**
 
-### Heurísticas selecionadas para a avaliação
+### Heurísticas selecionadas
 
-Entre as 15 heurísticas propostas, destacam-se quatro para a avaliação da plataforma BRB Mobilidade Estudantil:
+Entre as 15 heurísticas propostas, destacam-se quatro para a avaliação das plataformas:
 
 | **Heurística** | **Descrição** |
 |---|---|
@@ -48,11 +63,18 @@ Entre as 15 heurísticas propostas, destacam-se quatro para a avaliação da pla
 | **HGE03 – Informações claramente organizadas** | Orienta a apresentação dos conteúdos de maneira simples, objetiva e familiar ao contexto do serviço, facilitando a compreensão dos usuários. |
 | **HGE05 – Acessibilidade universal** | Busca garantir que os serviços possam ser utilizados por pessoas com diferentes condições físicas e cognitivas, considerando diretrizes como WCAG e e-MAG. |
 
-## Aplicação na avaliação do BRB Mobilidade Estudantil
+<div style="display: flex; justify-content: center; gap: 50px; margin-top: 20px;">
+  <img src="/guia_acessibilidade/../imagens/icon/smartphone.png" alt="ícone 1" width="120">
+  <img src="/guia_acessibilidade/../imagens/icon/pilha-de-caixas.png" alt="ícone 2" width="120">
+  <img src="/guia_acessibilidade/../imagens/icon/entendimento.png" alt="ícone 2" width="120">
+  <img src="/guia_acessibilidade/../imagens/icon/seguranca.png" alt="ícone 2" width="120">
+</div>
+
+### Aplicação na avaliação
 
 As heurísticas específicas para governo eletrônico complementam as de Nielsen, permitindo identificar problemas que ultrapassam aspectos visuais e envolvem a qualidade, a segurança e a acessibilidade dos serviços públicos digitais.
 
-Sua aplicação é especialmente relevante para a avaliação do **BRB Mobilidade Estudantil**, considerando que a plataforma oferece serviços relacionados ao Passe Livre Estudantil e realiza o tratamento de informações pessoais dos usuários (MACIEL; MEDEIROS, 2026).
+Sua aplicação é especialmente relevante para a avaliação de plataformas que oferece serviços relacionados ao Passe Livre Estudantil e realiza o tratamento de informações pessoais dos usuários (MACIEL; MEDEIROS, 2026).
 
 ## Referências bibliográficas
 

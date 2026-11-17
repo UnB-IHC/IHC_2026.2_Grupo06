@@ -97,6 +97,7 @@ Conteúdos multimídia devem oferecer alternativas que permitam o acesso às inf
 - **Transcrições:** disponibilizam em texto o conteúdo de materiais exclusivamente em áudio.
 - **Audiodescrição:** apresenta informações visuais relevantes, como ações, expressões e mudanças de cena que não são transmitidas pelo áudio original.
 - **Libras:** a janela de interpretação permite que pessoas surdas tenham acesso ao conteúdo por meio da Língua Brasileira de Sinais.
+
 <div style="display: flex; justify-content: center; gap: 50px; margin-top: 20px;">
   <img src="/guia_acessibilidade/../imagens/icon/setas.png" alt="ícone 1" width="120">
   <img src="/guia_acessibilidade/../imagens/icon/legenda_icon.png" alt="ícone 2" width="120">

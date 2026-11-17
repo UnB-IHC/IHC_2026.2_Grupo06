@@ -4,6 +4,9 @@ O princípio **Robusto** trata da estrutura técnica do conteúdo, garantindo qu
 
 ## Codificação e semântica
 
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
+
 A semântica HTML consiste em utilizar cada elemento de acordo com sua finalidade. Um código bem estruturado facilita os testes e evita diversas barreiras de acessibilidade (NASCIMENTO et al., 2023, p. 25).
 
 Devem ser priorizados elementos HTML nativos, como `button`, `a` e campos de formulário, pois já possuem comportamentos e funcionalidades reconhecidos por navegadores e tecnologias assistivas. Substituí-los por elementos genéricos, como `div` e `span`, exige implementações adicionais e pode comprometer a acessibilidade.
@@ -11,6 +14,12 @@ Devem ser priorizados elementos HTML nativos, como `button`, `a` e campos de for
 Por exemplo, um recurso de alto contraste deve ser implementado como botão, pois executa uma ação, enquanto um link deve ser utilizado para navegação. A escolha deve considerar a função do componente, e não apenas sua aparência (NASCIMENTO et al., 2023, p. 25-26, 44-45).
 
 O critério 4.1.2, de nível A, estabelece que os componentes de interface devem possuir nome e papel identificáveis programaticamente, além de disponibilizar seus estados e propriedades para as tecnologias assistivas. Quando não houver um elemento HTML nativo adequado, pode-se utilizar atributos WAI-ARIA, como `role`, `aria-label` e `aria-expanded`, priorizando sempre o HTML semântico (W3C, 2023; NASCIMENTO et al., 2023, p. 60).
+
+</div>
+<div>
+<img src="/guia_acessibilidade/../imagens/icon/html.png" alt="Barra de pesquisa" width="150">
+</div>
+</div>
 
 Outros critérios da WCAG relacionados à estrutura e à interpretação do conteúdo são:
 
@@ -21,11 +30,20 @@ Outros critérios da WCAG relacionados à estrutura e à interpretação do cont
 | 4.1.2 | Garantir que componentes tenham nome, papel e estados identificáveis por software. | A |
 | 4.1.3 | Permitir que mensagens de status sejam identificadas por tecnologias assistivas sem exigir mudança de foco. | AA |
 
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
+
 O critério 4.1.3 é importante para mensagens dinâmicas, como a confirmação de que um item foi adicionado ao carrinho. Recursos como `role="status"` e `role="alert"` podem auxiliar na comunicação dessas informações sem deslocar o foco do usuário.
 
 Também é necessário ter cuidado com elementos ocultos por CSS. Propriedades como `display: none` e `visibility: hidden` retiram o conteúdo tanto da apresentação visual quanto da árvore de acessibilidade. Portanto, seu uso deve considerar se a informação também precisa estar disponível para tecnologias assistivas (NASCIMENTO et al., 2023, p. 46).
 
 Embora o critério 4.1.1 (Análise Sintática) tenha sido removido da WCAG 2.2, manter um código HTML válido continua sendo uma boa prática. Isso inclui evitar identificadores duplicados e utilizar ferramentas de validação, como o validador do W3C (NASCIMENTO et al., 2023, p. 59).
+
+</div>
+<div>
+<img src="/guia_acessibilidade/../imagens/icon/pasta.png" alt="Barra de pesquisa" width="150">
+</div>
+</div>
 
 ## Cabeçalhos, regiões, listas e tabelas
 
@@ -38,6 +56,12 @@ Os cabeçalhos HTML (`h1` a `h6`) organizam o conteúdo hierarquicamente e funci
 Recomenda-se utilizar um `h1` para identificar o assunto principal da página, seguido de `h2` para suas seções e `h3` para subseções, respeitando a hierarquia e evitando saltos sem justificativa entre níveis.
 
 Por exemplo, uma página de notícias pode apresentar `h1` para “Notícias”, `h2` para “Cidades” e “Esportes” e `h3` para os respectivos assuntos de cada seção.
+
+<div style="display: flex; justify-content: center; gap: 50px; margin-top: 20px;">
+<img src="/guia_acessibilidade/../imagens/icon/h1.png" alt="Barra de pesquisa" width="80">
+<img src="/guia_acessibilidade/../imagens/icon/h2.png" alt="Barra de pesquisa" width="80">
+<img src="/guia_acessibilidade/../imagens/icon/h3.png" alt="Barra de pesquisa" width="80">
+</div>
 
 Os critérios relacionados são:
 
@@ -59,9 +83,18 @@ As regiões semânticas dividem a página em áreas reconhecíveis, facilitando 
 | `aside` | Conteúdo complementar. |
 | `footer` | Rodapé da página ou de uma seção. |
 
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
+
 Cada página deve possuir uma região principal `main`. Quando houver mais de uma região `nav`, recomenda-se identificá-las com nomes distintos, utilizando recursos como `aria-label`, por exemplo, “Navegação principal” e “Navegação do rodapé”.
 
 As regiões também facilitam o uso de mecanismos para pular blocos repetidos, relacionados ao critério 2.4.1 (nível A), abordado na seção 4.1 (W3C, 2023; NASCIMENTO et al., 2023, p. 27).
+
+</div>
+<div>
+<img src="/guia_acessibilidade/../imagens/icon/pesquisa.png" alt="Barra de pesquisa" width="150">
+</div>
+</div>
 
 **Listas**
 
@@ -77,6 +110,9 @@ A extensão Disable-HTML pode auxiliar na verificação da estrutura da página 
 
 **Tabelas**
 
+<div style="display: flex; align-items: center; gap: 24px;" markdown="1">
+<div style="flex: 1;" markdown="1">
+
 As tabelas devem ser utilizadas para apresentar dados relacionados, e não para organizar o layout da página. Para garantir sua acessibilidade, é importante:
 
 - Utilizar `th` para identificar os cabeçalhos das linhas e colunas.
@@ -84,6 +120,12 @@ As tabelas devem ser utilizadas para apresentar dados relacionados, e não para 
 - Utilizar `caption` para fornecer uma descrição ou título à tabela.
 - Em tabelas complexas, utilizar `id` e `headers` para relacionar os cabeçalhos às respectivas células.
 - Em telas pequenas, permitir a rolagem horizontal da tabela dentro de um contêiner próprio, evitando que toda a página precise ser rolada horizontalmente.
+
+</div>
+<div>
+  <img src="/guia_acessibilidade/../imagens/icon/layout.png" alt="Barra de pesquisa" width="150">
+</div>
+</div>
 
 Os cabeçalhos devem ser claros e, preferencialmente, visíveis, embora também possam ser disponibilizados especificamente para leitores de tela (NASCIMENTO et al., 2023, p. 34; W3C, 2023).
 
