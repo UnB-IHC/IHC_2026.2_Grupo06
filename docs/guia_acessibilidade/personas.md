@@ -13,6 +13,7 @@ A construção de personas deve ser baseada em dados reais coletados durante pes
 
 Uma persona não representa simplesmente um usuário médio ou uma estatística, mas um perfil concreto que ajuda os desenvolvedores a desenvolver empatia e manter o foco nas necessidades humanas durante o projeto.
 
+
 </div>
 <div>
   <img src="/guia_acessibilidade/../imagens/icon/colaborar.png" alt="Barra de pesquisa" width="150">
