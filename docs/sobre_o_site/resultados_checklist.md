@@ -7,8 +7,8 @@
 | **CORES E CONTRASTES** | Componentes de interface e objetos gráficos possuem contraste adequado. | Nível 2 (Requisito) | NBR 17225 (5.11.4, 5.11.5) | X | | |
 | **TEXTOS** | A página suporta zoom de até 200% sem perda de informações ou de funcionalidades. | Nível 2 (Requisito) | NBR 17225 (5.12.7) | | X | |
 | **TEXTOS** | Textos corridos alinhados à esquerda, com espaçamento adequado entre linhas, parágrafos e palavras. | Nível 3 (Recomendação) | NBR 17225 (5.12) | | X | |
-| **IMAGENS E TEXTOS ALTERNATIVOS** | Imagens informativas ou funcionais possuem atributo de texto alternativo (alt) correspondente e claro. | Nível 2 (Requisito) | NBR 17225 (5.2) | | X | |
-| **IMAGENS E TEXTOS ALTERNATIVOS** | Imagens puramente decorativas possuem texto alternativo vazio para serem ignoradas por leitores de tela. | Nível 2 (Requisito) | NBR 17225 (5.2) | | X | |
+| **IMAGENS E TEXTOS ALTERNATIVOS** | Imagens informativas ou funcionais possuem atributo de texto alternativo (alt) correspondente e claro. | Nível 2 (Requisito) | NBR 17225 (5.2) | X | | |
+| **IMAGENS E TEXTOS ALTERNATIVOS** | Imagens puramente decorativas possuem texto alternativo vazio para serem ignoradas por leitores de tela. | Nível 2 (Requisito) | NBR 17225 (5.2) | X | | |
 | **ÁUDIO E VÍDEO** | Vídeos pré-gravados possuem legendas sincronizadas e audiodescrição para informações visuais. | Nível 2 (Requisito) | NBR 17225 (5.14) | | | X |
 | **ÁUDIO E VÍDEO** | Conteúdos audiovisuais disponibilizam janela com interpretação em Libras. | Nível 3 (Recomendação) | NBR 17225 (5.14) | | | X |
 | **DESIGN RESPONSIVO** | O layout se adapta à tela, não exigindo rolagem horizontal e vertical simultaneamente para leitura. | Nível 2 (Requisito) | NBR 17225 (5.10.4) | | X | |
@@ -16,7 +16,7 @@
 | **DESIGN RESPONSIVO** | O serviço garante acessibilidade universal, adaptando-se a diferentes telas e mantendo uma hierarquia estruturada. | Nível 2 (Requisito) | HGE05 | | X | |
 | **TECLADO E FOCO** | A interface inteira pode ser navegada e operada exclusivamente pelo teclado, sem prender o foco do usuário. | Nível 2 (Requisito) | NBR 17225 (5.1.6, 5.1.12, 5.1.13);<br>WCAG (2.1.1, 2.1.2) | | X | |
 | **TECLADO E FOCO** | O elemento focado não fica totalmente escondido por banners, chats ou cabeçalhos fixos sobrepostos. | Nível 2 (Requisito) | NBR 17225 (5.1.3);<br>WCAG (2.4.11) | X | | |
-| **TECLADO E FOCO** | O elemento que está focado pelo teclado possui um indicador visual visível e nítido. | Nível 2 (Requisito) | NBR 17225 (5.1.1);<br>WCAG (2.4.7) | | X | |
+| **TECLADO E FOCO** | O elemento que está focado pelo teclado possui um indicador visual visível e nítido. | Nível 2 (Requisito) | NBR 17225 (5.1.1);<br>WCAG (2.4.7) | X | | |
 | **TECLADO E FOCO** | Há um link acessível via teclado para "pular conteúdo" e ir direto ao conteúdo principal. | Nível 2 (Requisito) | NBR 17225 (5.7.12);<br>WCAG (2.4.1);<br>Guia UK (p. 27) | | X | |
 | **LINKS E NAVEGAÇÃO** | O texto do link identifica seu destino ou função (evitando textos genéricos como "clique aqui"). | Nível 2 (Requisito) | NBR 17225 (5.7.4);<br>WCAG (2.4.4);<br>Guia UK (p. 27, 44, 52) | | X | |
 | **LINKS E NAVEGAÇÃO** | O site possui mecanismos consistentes de navegação. | Nível 2 (Requisito) | NBR 17225 (5.7.13, 5.7.15);<br>WCAG (2.4.5, 3.2.3);<br>Guia UK (p. 29);<br>HN4;<br>HGE05 | | X | |
