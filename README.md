@@ -12,6 +12,11 @@ Este projeto tem como objetivo realizar a análise de usabilidade, acessibilidad
 
 ---
 
+## 📄 Guia de Acessibilidade em PDF
+Acesse o [Guia de Acessibilidade Grupo 06 IHC 2026.2 (PDF)](./Guia%20de%20Acessibilidade%20Grupo%2006%20IHC%202026.2.pdf).
+
+---
+
 ## 👥 Membros da Equipe
 
 | Matrícula | Nome |
