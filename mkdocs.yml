@@ -43,6 +43,8 @@ nav:
     - guia_acessibilidade/heuristicas.md
   - Ferramentas:
     - guia_acessibilidade/testes_ferramentas.md
+  - Personas e UX:
+    - avaliacoes/personas_ux.md
 
 markdown_extensions:
   - admonition
